@@ -11,8 +11,8 @@ import pandas as pd
 import os
 import sys
 import matplotlib.pyplot as plt
-path = '/Users/rpindale/Documents/DS5100/ds5100_prog_for_ds_jv/'
-
+#path = '/Users/rpindale/Documents/DS5100/ds5100_prog_for_ds_jv/'
+path = '/Users/colinobrien/Desktop/repo/DS_5100/ds5100_prog_for_ds_jv'
 
 
 

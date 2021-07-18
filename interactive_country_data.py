@@ -47,7 +47,8 @@ def country_overview(country_x):
         print(joined)
         return joined
     else:
-        return 'sorry I don\'t have that country. Please try again with a different country'
+        print('sorry I don\'t have that country. Please try again with a different country')
+        return None
 
 #### final output
 country_overview(input_string_1)
@@ -57,7 +58,7 @@ country_overview(input_string_1)
 
 
 
-##### unit testing
+#### unit testing
 #
 # tc = unittest.TestCase()
 #
@@ -83,7 +84,7 @@ country_overview(input_string_1)
 #
 #     def test_2_country_not_in_data(self):
 #         ##test
-#         expected_return = 'sorry I don\'t have that country. Please try again with a different country'
+#         expected_return = None
 #         self.assertEqual(expected_return, self.test_df2)
 #
 #     def test_3_correct_global_data(self):
